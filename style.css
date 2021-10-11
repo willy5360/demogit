@@ -1,0 +1,16 @@
+.img-thumbnail{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 2px solid rgb(red, green, blue);
+}
+.card{
+    border: blue 1px solid
+}
+.card-img-top{
+    padding: 0 10px 0 10px;
+}
+.card-header{
+    background-color: white;
+    border: none;
+}
