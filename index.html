@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0bcd448ec6.js" crossorigin="anonymous"></script>
     <title>Travelbook</title>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row justify-content-center"> <!-- Slide de imagenes-->
-            <div class="col-8">
-                <div id="carouselExampleCaptions" class="carousel slide carousel-fade m-3" data-bs-ride="carousel">
+            <div class="col">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade mt-3 mb-3" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -53,24 +54,233 @@
                   </div>
             </div>
         </div>
-        <div class="row"> <!--Comentarios de facebook-->
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+        <div class="row " data-masonry='{"percentPosition": true }'> <!--Efecto masonry-->        
+            <!--Comentarios de facebook 1 -->
+                <div class="card p-0 m-2 " style="width: 18rem;">
                     <div class="card-header d-inline-flex align-items-center">
                         <img src="https://images.pexels.com/photos/4355346/pexels-photo-4355346.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-thumbnail" alt="...">
                         <p class="h6 m-2">Maria Petunia Praderas</p>
                     </div>
-                    <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+                    <img src="https://images.pexels.com/photos/4784226/pexels-photo-4784226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-        </div>
+                        
+                        <span class="d-inline-flex align-items-center m-1 "> <!--Likes-->
+                                <div class="mr-2">
+                                    <i class="fas fa-heart fa-lg mr-2 " style="color: Tomato;"></i>
 
+                                </div>
+                                <div>
+                                    <p class="h6 card-text ms-2">2514 Likes</p>
+                                </div>
+                                
+                        </span>
+               
+                            
+                        
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+           
+           <!--Comentarios de facebook 2-->
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header d-inline-flex align-items-center">
+                        <img src="https://images.pexels.com/photos/2099225/pexels-photo-2099225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-thumbnail" alt="...">
+                        <p class="h6 m-2">Alessandro Currie</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="d-inline-flex align-items-center m-1 "> <!--Likes-->
+                                <div class="mr-2">
+                                    <i class="fas fa-heart fa-lg mr-2 " style="color: Tomato;"></i>
+
+                                </div>
+                                <div>
+                                    <p class="h6 card-text ms-2">2894 Likes</p>
+                                </div>
+                                
+                        </span>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            
+            <!--Comentarios de facebook 3-->
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header d-inline-flex align-items-center">
+                        <img src="https://images.pexels.com/photos/3473525/pexels-photo-3473525.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-thumbnail" alt="...">
+                        <p class="h6 m-2">Dominykas Mitchell</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="d-inline-flex align-items-center m-1 "> <!--Likes-->
+                                <div class="mr-2">
+                                    <i class="fas fa-heart fa-lg mr-2 " style="color: Tomato;"></i>
+
+                                </div>
+                                <div>
+                                    <p class="h6 card-text ms-2">4561 Likes</p>
+                                </div>
+                                
+                        </span>
+                        
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            
+            <!--Comentarios de facebook 4-->
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header d-inline-flex align-items-center">
+                        <img src="https://images.pexels.com/photos/804009/pexels-photo-804009.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-thumbnail" alt="...">
+                        <p class="h6 m-2">Gurleen Shelton</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/3876394/pexels-photo-3876394.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="d-inline-flex align-items-center m-1 "> <!--Likes-->
+                                <div class="mr-2">
+                                    <i class="fas fa-heart fa-lg mr-2 " style="color: Tomato;"></i>
+
+                                </div>
+                                <div>
+                                    <p class="h6 card-text ms-2">7896 Likes</p>
+                                </div>
+                                
+                        </span>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            
+            <!--Comentarios de facebook 5-->
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header d-inline-flex align-items-center">
+                        <img src="https://images.pexels.com/photos/3936894/pexels-photo-3936894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-thumbnail" alt="...">
+                        <p class="h6 m-2">Stella Bassett</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/1658967/pexels-photo-1658967.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="d-inline-flex align-items-center m-1 "> <!--Likes-->
+                                <div class="mr-2">
+                                    <i class="fas fa-heart fa-lg mr-2 " style="color: Tomato;"></i>
+
+                                </div>
+                                <div>
+                                    <p class="h6 card-text ms-2">3144 Likes</p>
+                                </div>
+                                
+                        </span>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            
+            <!--Comentarios de facebook 6-->
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header d-inline-flex align-items-center">
+                        <img src="https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-thumbnail" alt="...">
+                        <p class="h6 m-2">Joann Richmond</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/1006121/pexels-photo-1006121.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="d-inline-flex align-items-center m-1 "> <!--Likes-->
+                            <div class="mr-2">
+                                <i class="fas fa-heart fa-lg mr-2 " style="color: Tomato;"></i>
+
+                            </div>
+                            <div>
+                                <p class="h6 card-text ms-2">6874 Likes</p>
+                            </div>
+                            
+                        </span>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <!--Comentarios de facebook 7-->
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header d-inline-flex align-items-center">
+                        <img src="https://images.pexels.com/photos/1546912/pexels-photo-1546912.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-thumbnail" alt="...">
+                        <p class="h6 m-2">Meerab Hamilton</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/417054/pexels-photo-417054.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="d-inline-flex align-items-center m-1 "> <!--Likes-->
+                            <div class="mr-2">
+                                <i class="fas fa-heart fa-lg mr-2 " style="color: Tomato;"></i>
+
+                            </div>
+                            <div>
+                                <p class="h6 card-text ms-2">4484 Likes</p>
+                            </div>
+                            
+                        </span>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <!--Comentarios de facebook 8-->
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header d-inline-flex align-items-center">
+                        <img src="https://images.pexels.com/photos/7460707/pexels-photo-7460707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-thumbnail" alt="...">
+                        <p class="h6 m-2">Luciano Mccormick</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/1402850/pexels-photo-1402850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="d-inline-flex align-items-center m-1 "> <!--Likes-->
+                            <div class="mr-2">
+                                <i class="fas fa-heart fa-lg mr-2 " style="color: Tomato;"></i>
+
+                            </div>
+                            <div>
+                                <p class="h6 card-text ms-2">2978 Likes</p>
+                            </div>
+                            
+                        </span>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <!--Comentarios de facebook 9-->
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header d-inline-flex align-items-center">
+                        <img src="https://images.pexels.com/photos/7460707/pexels-photo-7460707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-thumbnail" alt="...">
+                        <p class="h6 m-2">Luciano Mccormick</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/346286/panorama-miami-florida-water-346286.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="d-inline-flex align-items-center m-1 "> <!--Likes-->
+                            <div class="mr-2">
+                                <i class="fas fa-heart fa-lg mr-2 " style="color: Tomato;"></i>
+
+                            </div>
+                            <div>
+                                <p class="h6 card-text ms-2">7814 Likes</p>
+                            </div>
+                            
+                        </span>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <!--Comentarios de facebook 10-->
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header d-inline-flex align-items-center">
+                        <img src="https://images.pexels.com/photos/7460707/pexels-photo-7460707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-thumbnail" alt="...">
+                        <p class="h6 m-2">Luciano Mccormick</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="d-inline-flex align-items-center m-1 "> <!--Likes-->
+                            <div class="mr-2">
+                                <i class="fas fa-heart fa-lg mr-2 " style="color: Tomato;"></i>
+
+                            </div>
+                            <div>
+                                <p class="h6 card-text ms-2">7411 Likes</p>
+                            </div>
+                            
+                        </span>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            
+        </div>
     </div>
 
- 
+       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script> 
 </body>
 </html>
