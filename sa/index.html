@@ -7,96 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/0bcd448ec6.js" crossorigin="anonymous"></script>
-    <title>travelbook</title>
+    <title>Travelbook</title>
 </head>
 <body>
-        <div class="container-fluid bg-info">
-
-                <div class="row">
-                    <div class="col-10">
-                    </div>
-
-                    <div class="col-2">
-                        <button type="button" class="btn btn-info d-flex align-items-center" id="boton1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <i class="far fa-user-circle "></i>
-                            <p class="micuenta">Mi cuenta</p> 
-                        </button>
-                    </div>
-                </div>
-        
-                <div class="row d-flex justify-content-end">
-                  <div class="col-2 bg-white">
-                      <img class="logotipo" src="logotipo.png" alt="logotipo">
-                  </div>
-
-                  <div class="col-10 bg-white d-flex justify-content-around pt-5">
-
-                      <div class="dropdown">
-                          <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">CIRCUITOS
-                          </button>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item" href="#">Europa</a></li>
-                              <li><a class="dropdown-item" href="#">América</a></li>
-                              <li><a class="dropdown-item" href="#">Africa</a></li>
-                              <li><a class="dropdown-item" href="#">Asia</a></li>
-                              <li><a class="dropdown-item" href="#">Oceanía</a></li>
-                          </ul>
-                      </div>
-              
-        
-              
-                      <div class="dropdown">
-                        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                          VIAJES EN GRUPO
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="#">Venezuela</a></li>
-                          <li><a class="dropdown-item" href="#">Japón</a></li>
-                          <li><a class="dropdown-item" href="#">Marruecos</a></li>
-                        </ul>
-                      </div>
-              
-            
-                  
-                      <div class="dropdown">
-                        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                          ISLAS
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="#">Islas Canarias</a></li>
-                          <li><a class="dropdown-item" href="#">Islas Baleares</a></li>
-                        </ul>
-                      </div>
-                  
-                  
-                      <div class="dropdown">
-                        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                          OFERTAS ESPECIALES
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="#">Hoteles</a></li>
-                          <li><a class="dropdown-item" href="#">Apartamentos</a></li>
-                          <li><a class="dropdown-item" href="#">Resorts</a></li>
-                          <li><a class="dropdown-item" href="#">Villas</a></li>
-                        </ul>
-                      </div>
-
-                      <div class="dropdown">
-                        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                          ACTIVIDADES
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="#">Tours</a></li>
-                          <li><a class="dropdown-item" href="#">Cruceros</a></li>
-                          <li><a class="dropdown-item" href="#">Resorts</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                </div>
-        </div>
-
-        </div>
-        <div class="container-fluid">
+    <div class="container-fluid">
         <div class="row justify-content-center"> <!-- Slide de imagenes-->
             <div class="col">
                 <div id="carouselExampleCaptions" class="carousel slide carousel-fade mt-3 mb-3" data-bs-ride="carousel">
@@ -366,48 +280,7 @@
     </div>
 
        
-    
-
-        
-            
-
-        
-
-    
-    <!-- MODAL HAY QUE PONERLO AL FINAL!!!!!!!!DESDE AQUI -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Identifícate con tu email y contraseña</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!--Formulario-->
-                  <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text"></div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check d-flex justify-content-between">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Mantenerme identificado</label>
-                      <p class="contraseña">¿Olvidaste tu contraseña?</p>
-                    </div>
-                    <button type="submit" class="btn btn-primary">ENTRAR</button>
-                  </form>
-              </div>
-              <!--HASTA AQUIIIIIIIIIIIIIIIIIII-->
-           
-          </div>
-        </div>
-      </div>
-    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script> 
 </body>
 </html>
